@@ -1,0 +1,163 @@
+/*-----CSS RESET-------*/
+*{padding:0;
+  margin:0;
+  font-size: 100%;
+  line-height: 1.5em;}
+
+
+/*---------- MAIN STYLING ----------*/
+header{
+  margin: auto;
+  padding-top: 2em;
+  color: rgb(250, 117, 28);
+  height: 100vh;
+  background-color:  rgb(250, 117, 28);;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+    background:#ffeecc;
+    color: #333;
+    font-family: 'Montserrat', sans-serif;
+}
+
+header h1,   section {
+  width: 100%;
+  max-width: 700px;
+  margin: auto;
+padding: 2.5em 0;}
+
+  header img {
+    margin: auto;
+    padding: 3em 0;
+  }
+
+.orange {
+  background: rgb(250, 117, 28);
+}
+
+.cream {
+  background: #ffeecc;
+}
+
+hr {
+  margin: 2em 0;
+  height: 4px;
+  background-color: rgb(241, 148, 9);
+  border: 0 none;
+}
+
+img {
+  display: block;
+  margin: 1em auto;
+  padding: 0;
+  max-width: 100%;
+}
+/*-------- TYPOGRAPHY ----------*/ 
+
+h1, h3 {
+    font-weight: bold;
+    color: black;
+    text-align: center;
+}
+
+h2 {
+  font-weight: bolder;
+  color: black;
+  text-align: right;
+}
+
+p {font-family: 'Raleway', sans-serif;
+  margin-bottom: 1em;}
+
+h1 {font-size: 2.827em;
+    margin-top: 2em;
+    margin-bottom: 0.1em;
+}
+
+h2 {font-size: 1.999em;
+margin: 3em 0 1em 0}
+
+h3 {font-size: 1.414em;
+margin-bottom: 1.5em;}
+
+
+
+
+ /*------------------- NAVIGATION ------------------*/
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  margin: 0;
+  width: 100%;
+  background-color:rgb(250, 117, 28);
+  padding: 1em 0;
+  font-size: 0.75em;
+  box-shadow: 0 0 10px 0 black;
+  font-family: 'Montserrat', sans-serif;
+}
+
+nav ul {
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+nav ul li {
+  display: inline;
+  margin: 20px;
+  background: none;
+}
+
+nav a:link {
+  color: #fafafa;
+}
+
+nav a:visited {
+  color: #fafafa;
+}
+
+nav a:hover {
+  border-bottom: none;
+  color: rgb(0, 0, 0);
+
+}
+
+/*-------------------- FOOTER ---------------------*/
+footer {
+  background-color: rgb(250, 117, 28);
+  text-align: center;
+  font-size: 0.707em;
+  padding: 2em 0 4em 0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.connections {
+	position: relative;
+	margin: 0 auto;
+}
+
+.connections ul {
+	margin: 0;
+	padding: 0;}
+
+.connections li {
+	margin: 0 15px;
+	padding: 0;
+	list-style: none; 
+	display: inline-block;}
+	
+.connections a:link {
+	border-bottom: none;}
+
+.connections img {
+	opacity: 0.5;
+    border: none;
+	}
+	
+ .connections a:hover img {
+		opacity: 1.0;
+		border-bottom: none; 
+		transition: all 0.3s ease-in-out; 
+		}
