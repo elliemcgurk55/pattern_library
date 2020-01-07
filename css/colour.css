@@ -1,0 +1,19 @@
+/*-----CSS RESET-------*/
+*{padding:0;
+    margin:0;
+    font-size: 100%;
+    line-height: 1.5em;}
+        
+
+/*----------COLOUR STYLING---------*/
+
+
+cream { /*---background colour---*/
+    background: #ffeecc;
+  }
+
+/*-----header colour-----*/ {
+  color: rgb(250, 117, 28);
+  background-color:  rgb(250, 117, 28);;
+}
+
